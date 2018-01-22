@@ -15,7 +15,7 @@ fill-column  ; variable
 
 ### Lists, functions, variables
 
-'(quoted list)
-(function)
-(function arg1 arg2)
-variable
+- '(quoted list)
+- (function)
+- (function arg1 arg2)
+- variable
