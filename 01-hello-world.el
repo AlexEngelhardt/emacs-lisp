@@ -49,3 +49,18 @@ counter
 ;; Move counter to hafway within the file, i.e. point-max / 2:
 
 (goto-char (/ (point-max) 2))
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; Misc shenanigans
+
+(equal 3 3)  ; t
+
+(equal '(1 2) '(1 2))  ; t
+
+(equal (list 1 2) '(1 2))  ; t
+
+(list 1 4)  ; (1 4)
+
+'(1 8)  ; (1 8)
+
+(equal (list 1 'doot) (list 1 "doot"))  ; nil
